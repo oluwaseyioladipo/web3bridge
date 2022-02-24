@@ -14,42 +14,44 @@
   <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Stats preview card component</title>
-
- 
 </head>
 <body>
   <section class="container">
     <section class="content-container">
+
+      <section class="image">
+        <img src="./images/image-header-desktop.jpg" class="desktop-image" alt="">
+        <img src="./images/image-header-mobile.jpg" class="mobile-image" alt="">
+      </section>
+
       <section class="content">
         <h1>
-          Get <span>insights</span> that will help <br> your business grow.
+          Get <span class = highlight>insights</span> that help your business grow.
         </h1>
     
         <p>
-          Discover the benefits of data analytics and make <br> better decisions regarding revenue, customer <br> experience, and overall efficiency.
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
         </p>
-        <table>
-          <thead>
-            <tr>
-              <th>10k+</th>
-              <th>314</th>
-              <th>12M+</th>
-            </tr>
-          </thead>
-      
-          <tbody>
-            <tr>
-              <td>Companies</td>
-              <td>Templates</td>
-              <td>Queries</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>  
 
-      <section class="image">
-        <img src="./images/image-header-desktop.jpg" alt="">
-      </section>
+        <section class="proof">
+          <div>
+            <span class="stats">10k+</span><br>
+            <span class="stat-headings">Companies</span>
+          </div>
+  
+          <div>
+            <span class="stats">314</span><br>
+            <span class="stat-headings">Templates</span>
+          </div>
+  
+          <div>
+            <span class="stats">12M+</span><br>  
+            <span class="stat-headings">Queries</span>
+          </div>
+
+        </section>
+
+      </section>  
     </section>
   </section>
 </body>
